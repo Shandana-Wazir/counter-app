@@ -1,0 +1,55 @@
+
+body{
+  
+ font-family: 'Arial Narrow Bold', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height:100vh ;
+ margin: 0; 
+background-color:rgb(199, 233, 247) ;
+
+}
+
+.container{
+
+    background-color:white ;
+    padding:30px ;
+    border-radius:10px ;
+    text-align: center;
+   box-shadow:0 4px 10px rgba(0,0,0,0.2) ;
+}
+ #count{
+
+  font-size:50px ;
+  margin:20px 0 ;
+
+ }
+
+ 
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+
+#increase{
+  background-color:#4CAF50 ;
+  color:#ffff;
+}
+
+#decrease{
+ background-color:#f44336 ; 
+ color: #ffff;
+
+}
+
+#reset{
+background-color:#777 ;
+color:#ffff ;
+
+}
